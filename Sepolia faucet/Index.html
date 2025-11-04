@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sepolia ETH Faucet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Sepolia ETH Faucet</h1>
+    <p>Dapatkan <strong>0.0001 ETH Sepolia</strong> gratis setiap 24 jam.</p>
+
+    <div class="form-group">
+      <input type="text" id="address" placeholder="Paste alamat Ethereum (0x...)" />
+      <button id="claimBtn">Klaim ETH</button>
+    </div>
+
+    <div id="message"></div>
+    <div id="txHash" class="hidden">
+      <p>Transaksi berhasil! Lihat di: <a href="#" target="_blank" id="txLink">Sepolia Explorer</a></p>
+    </div>
+
+    <footer>
+      <small>Faucet dijalankan oleh <code>0xFB46...7E3b</code></small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
